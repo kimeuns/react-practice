@@ -1,8 +1,8 @@
 import { useState , memo, useMemo} from "react";
 import { Table } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
-import { changeName, increase } from "../store/userSlice";
-import { addCount, deleteItem } from "../store/cartSlice";
+import { changeName, increase } from "store/userSlice";
+import { addCount, deleteItem } from "store/cartSlice";
 import {Button} from 'react-bootstrap';
 
 let Child = memo (function() {

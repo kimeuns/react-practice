@@ -5,15 +5,13 @@ import data from './data'
 import { lazy, Suspense, useState , useEffect} from 'react';
 import { Routes, Route, Link, useNavigate, Outlet} from "react-router-dom";
 
-import Card from './pages/Card';
-import Navb from './pages/Navbar'
+import Card from 'pages/Card';
+import Navb from 'pages/Navbar'
 import axios from 'axios';
 
-// import Detail from './pages/Detail'
-// import Cart from './pages/Cart'
 
-const Detail = lazy(() => import('./pages/Detail.js')) 
-const Cart = lazy(() => import('./pages/Cart.js')) 
+const Detail = lazy(() => import('pages/Detail.js')) 
+const Cart = lazy(() => import('pages/Cart.js')) 
 
 function App() {
   const [shoes, setShoes] = useState(data);

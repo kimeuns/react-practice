@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import { useEffect, useState } from "react";
 import { Nav } from "react-bootstrap";
-import { addItem } from "../store/cartSlice";
+import { addItem } from "store/cartSlice";
 import { useSelector, useDispatch } from "react-redux";
 
 const TestBox = styled.div`
