@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap'
-import data from './data'
+import data from 'data'
 import { lazy, Suspense, useState , useEffect} from 'react';
 import { Routes, Route, Link, useNavigate, Outlet} from "react-router-dom";
 
@@ -10,8 +10,8 @@ import Navb from 'pages/Navbar'
 import axios from 'axios';
 
 
-const Detail = lazy(() => import('pages/Detail.js')) 
-const Cart = lazy(() => import('pages/Cart.js')) 
+const Detail = lazy(() => import('pages/Detail')) 
+const Cart = lazy(() => import('pages/Cart')) 
 
 function App() {
   const [shoes, setShoes] = useState(data);
@@ -30,7 +30,7 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route
-            path="/"
+            path="/react-practice/"
             element={
               <>
                 <div className="main-bg"></div>

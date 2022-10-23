@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar, Container, Nav} from 'react-bootstrap'
-import { Routes, Route, Link, useNavigate} from "react-router-dom";
-import logo from '/Users/kim-eunsu/Desktop/React-apple/shop/src/logo.svg';
+import { useNavigate} from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import axios from 'axios';
 import { useQuery } from "react-query";
@@ -17,19 +16,18 @@ function Navb(){
   { staleTime:2000}
   )
    
-
   return (
     <>
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="/">
-            <img
+          <Navbar.Brand href="/react-practice/">
+            {/* <img
               alt=""
-              src={logo}
+              src={}
               width="30"
               height="30"
               className="d-inline-block align-top"
-            />{" "}
+            />{" "} */}
             mini Project
           </Navbar.Brand>
           <Nav className="me-auto">
