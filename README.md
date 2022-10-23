@@ -10,6 +10,6 @@
 - Ajax를 사용해서 서버에 Get 요청
     - axios를 사용함.
 
--Redux 라이브러리를 활용하여 공유가 필요한 state 저장
+- Redux 라이브러리를 활용하여 공유가 필요한 state 저장
 
 - localStorage를 사용하여 기록을 남길 수 있도록 설정 
