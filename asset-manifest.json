@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-practice/static/css/main.7fcb580e.css",
+    "main.js": "/react-practice/static/js/main.29106edc.js",
+    "static/js/892.cdeb2c03.chunk.js": "/react-practice/static/js/892.cdeb2c03.chunk.js",
+    "static/js/623.9dc03751.chunk.js": "/react-practice/static/js/623.9dc03751.chunk.js",
+    "static/js/787.23170c61.chunk.js": "/react-practice/static/js/787.23170c61.chunk.js",
+    "static/js/881.e1ded6e1.chunk.js": "/react-practice/static/js/881.e1ded6e1.chunk.js",
+    "index.html": "/react-practice/index.html",
+    "main.7fcb580e.css.map": "/react-practice/static/css/main.7fcb580e.css.map",
+    "main.29106edc.js.map": "/react-practice/static/js/main.29106edc.js.map",
+    "892.cdeb2c03.chunk.js.map": "/react-practice/static/js/892.cdeb2c03.chunk.js.map",
+    "623.9dc03751.chunk.js.map": "/react-practice/static/js/623.9dc03751.chunk.js.map",
+    "787.23170c61.chunk.js.map": "/react-practice/static/js/787.23170c61.chunk.js.map",
+    "881.e1ded6e1.chunk.js.map": "/react-practice/static/js/881.e1ded6e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fcb580e.css",
+    "static/js/main.29106edc.js"
+  ]
+}
