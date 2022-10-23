@@ -30,7 +30,7 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route
-            path="/react-practice/"
+            path="react-practice/"
             element={
               <>
                 <div className="main-bg"></div>

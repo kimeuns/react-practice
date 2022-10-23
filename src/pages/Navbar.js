@@ -31,7 +31,7 @@ function Navb(){
             mini Project
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link onClick={() => {navigate("/")}}>Home</Nav.Link>
+            <Nav.Link onClick={() => {navigate("/react-practice/")}}>Home</Nav.Link>
             <Nav.Link onClick={() => {navigate("/cart")}}>Cart</Nav.Link>
           </Nav>
             <Nav className="justify-content-end">{result.isLoading? '로딩중' :`반가워요, ${result.data.name} 님`}</Nav>
