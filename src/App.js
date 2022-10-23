@@ -18,11 +18,11 @@ function App() {
   const [click, setClick] = useState(1);
   const navigate = useNavigate();
 
-  useEffect(()=>{
-    if(localStorage.getItem('watched').length==0){
-      localStorage.setItem('watched', JSON.stringify([]))
-    }
-  },[])
+  // useEffect(()=>{
+  //   if(localStorage.getItem('watched').length==0){
+  //     localStorage.setItem('watched', JSON.stringify([]))
+  //   }
+  // },[])
   
   return (
     <div className="App">
